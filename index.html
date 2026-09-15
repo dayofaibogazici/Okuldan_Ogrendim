@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapay Zekâyı Okuldan Öğrendim - İçerik Portalı</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f6; 
+            color: #333; 
+            max-width: 900px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            line-height: 1.6;
+        }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 10px; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 40px; font-size: 1.1em; }
+        
+        /* Akordiyon Tasarımı */
+        details { 
+            background: #fff; 
+            margin-bottom: 15px; 
+            border-radius: 8px; 
+            box-shadow: 0 3px 6px rgba(0,0,0,0.05); 
+            overflow: hidden;
+        }
+        summary { 
+            font-size: 1.1em; 
+            font-weight: 600; 
+            padding: 18px 20px; 
+            cursor: pointer; 
+            list-style: none; 
+            background-color: #ffffff;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            border-left: 5px solid #3498db;
+            transition: background-color 0.2s;
+        }
+        summary:hover { background-color: #f8fbff; }
+        summary::-webkit-details-marker { display: none; } /* Safari için ok işaretini gizleme */
+        summary:after { content: '+'; font-size: 1.4em; color: #3498db; font-weight: normal; }
+        details[open] summary:after { content: '−'; }
+        
+        /* Modül Listesi Tasarımı */
+        ul.module-list { 
+            padding: 20px 20px 20px 40px; 
+            margin: 0; 
+            background-color: #fafbfc; 
+            border-top: 1px solid #eee;
+        }
+        ul.module-list li { margin-bottom: 12px; }
+        ul.module-list li:last-child { margin-bottom: 0; }
+        ul.module-list a { 
+            color: #2980b9; 
+            text-decoration: none; 
+            font-weight: 500;
+            display: block;
+            padding: 5px 0;
+        }
+        ul.module-list a:hover { color: #e74c3c; padding-left: 5px; transition: all 0.2s ease; }
+    </style>
+</head>
+<body>
+
+    <h1>Yapay Zekâyı Okuldan Öğrendim</h1>
+    <p class="subtitle">Eğitmen İçerik ve Materyal Portalı</p>
+
+    <!-- TEMA 1 -->
+    <details>
+        <summary>Tema 1: Yapay Zekâ Okuryazarlığı Temelleri</summary>
+        <ul class="module-list">
+            <li><a href="tema-1/modul-1/index.html">01 - YZ Nedir?</a></li>
+            <li><a href="tema-1/modul-2/index.html">02 - Makineler Nasıl Öğrenir?</a></li>
+            <li><a href="tema-1/modul-3/index.html">03 - Makineler Nasıl Öğrenir? (Kodlama Etkinlikleri ile)</a></li>
+            <li><a href="tema-1/modul-4/index.html">04 - Makineler Nasıl Üretir?</a></li>
+            <li><a href="tema-1/modul-5/index.html">05 - Yapay Zeka Etik Tartışması</a></li>
+            <li><a href="tema-1/modul-6/index.html">06 - Yapay Zekânın Etik Kullanımını Keşfetme</a></li>
+            <li><a href="tema-1/modul-7/index.html">07 - Yapay Zeka Okuryazarlığı</a></li>
+        </ul>
+    </details>
+
+    <!-- TEMA 2 -->
+    <details>
+        <summary>Tema 2: İnsani Etkileşim ve Sorumluluk</summary>
+        <ul class="module-list">
+            <li><a href="tema-2/modul-1/index.html">01 - Botun Arkasındaki Beyin</a></li>
+            <li><a href="tema-2/modul-2/index.html">02 - YZ, Çaba ve Beynimiz</a></li>
+            <li><a href="tema-2/modul-3/index.html">03 - Bilişsel Kart Oyunu</a></li>
+            <li><a href="tema-2/modul-4/index.html">04 - Gerçek, Hileler ve Yapay Zekâ / Bilgiyi Doğrulamayı Öğrenmek</a></li>
+        </ul>
+    </details>
+
+    <!-- TEMA 3 -->
+    <details>
+        <summary>Tema 3: Sosyal Bilgiler</summary>
+        <ul class="module-list">
+            <li><a href="tema-3/modul-1/index.html">01 - İnsan Hakları ve YZ</a></li>
+            <li><a href="tema-3/modul-2/index.html">02 - Yapay Zekâ ve Bilgisayar Biliminde Öncü Kadınlar</a></li>
+            <li><a href="tema-3/modul-3/index.html">03 - Yapay Zekâ Çağında Çalışma Hayatı</a></li>
+        </ul>
+    </details>
+
+    <!-- TEMA 4 -->
+    <details>
+        <summary>Tema 4: Veri Bilimi</summary>
+        <ul class="module-list">
+            <li><a href="tema-4/modul-1/index.html">01 - Ecobits Kâşifleri</a></li>
+            <li><a href="tema-4/modul-2/index.html">02 - Çevremizi Anlamlandırmak</a></li>
+            <li><a href="tema-4/modul-3/index.html">03 - Veriden Karara / YZ, Gözetim ve İnsan Sorumluluğu</a></li>
+        </ul>
+    </details>
+
+    <!-- TEMA 5 -->
+    <details>
+        <summary>Tema 5: Görsel ve Sahne Sanatları</summary>
+        <ul class="module-list">
+            <li><a href="tema-5/modul-1/index.html">01 - Yapay Zekâ ve Yaratıcı Sanatlar</a></li>
+        </ul>
+    </details>
+
+    <!-- TEMA 6 -->
+    <details>
+        <summary>Tema 6: Fen Bilimleri ve Çevre</summary>
+        <ul class="module-list">
+            <li><a href="tema-6/modul-1/index.html">01 - Yapay Zekânın Çevre Üzerindeki Etkisi</a></li>
+        </ul>
+    </details>
+
+    <!-- TEMA 7 -->
+    <details>
+        <summary>Tema 7: Spor</summary>
+        <ul class="module-list">
+            <li><a href="tema-7/modul-1/index.html">01 - Oyunun Kurallarını Değiştirmek / Sporda YZ'yi Adil Kullanmak</a></li>
+        </ul>
+    </details>
+
+</body>
+</html>
