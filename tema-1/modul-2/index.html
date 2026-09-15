@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modül 2 - Makineler Nasıl Öğrenir? | Görsel Veri Seti</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f8f9fa; 
+            color: #333; 
+            padding: 30px; 
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header-section { text-align: center; margin-bottom: 40px; }
+        h1 { color: #2c3e50; }
+        .instructions { 
+            background-color: #e8f4f8; 
+            padding: 15px; 
+            border-radius: 8px; 
+            border-left: 5px solid #3498db;
+            font-size: 1.1em; 
+            color: #555; 
+            margin-bottom: 30px;
+        }
+        
+        /* Kategori Başlıkları */
+        h2 { 
+            color: #34495e; 
+            border-bottom: 2px solid #ddd; 
+            padding-bottom: 10px; 
+            margin-top: 40px;
+        }
+
+        /* Galeri Izgarası */
+        .gallery { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+            gap: 15px; 
+            margin-top: 20px;
+        }
+        
+        .gallery img { 
+            width: 100%; 
+            height: 150px; 
+            object-fit: cover; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+            transition: transform 0.2s, box-shadow 0.2s; 
+            cursor: grab; 
+        }
+        .gallery img:hover { 
+            transform: scale(1.05); 
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .gallery img:active { cursor: grabbing; }
+
+        /* Geri Dön Butonu */
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .back-button:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <a href="../../index.html" class="back-button">← Ana Sayfaya Dön</a>
+
+    <div class="header-section">
+        <h1>Modül 02 - Makineler Nasıl Öğrenir?</h1>
+        <p>Kedi ve Köpek Sınıflandırma Veri Seti</p>
+    </div>
+
+    <div class="instructions">
+        💡 <b>Öğretmenler İçin Not:</b> Teachable Machine sekmesini yan pencerede açın. Aşağıdaki görselleri farenizin sol tuşuyla basılı tutarak, Teachable Machine'deki ilgili <b>Sınıf (Class)</b> bölümüne doğrudan sürükleyip bırakabilirsiniz.
+    </div>
+
+    <!-- KEDİ GÖRSELLERİ -->
+    <h2>Kediler (15 Görsel)</h2>
+    <div class="gallery">
+        <img src="kedi/kedi_1.png" alt="Kedi 1">
+        <img src="kedi/kedi_2.png" alt="Kedi 2">
+        <img src="kedi/kedi_3.png" alt="Kedi 3">
+        <img src="kedi/kedi_4.png" alt="Kedi 4">
+        <img src="kedi/kedi_5.png" alt="Kedi 5">
+        <img src="kedi/kedi_6.png" alt="Kedi 6">
+        <img src="kedi/kedi_7.png" alt="Kedi 7">
+        <img src="kedi/kedi_8.png" alt="Kedi 8">
+        <img src="kedi/kedi_9.png" alt="Kedi 9">
+        <img src="kedi/kedi_10.png" alt="Kedi 10">
+        <img src="kedi/kedi_11.png" alt="Kedi 11">
+        <img src="kedi/kedi_12.png" alt="Kedi 12">
+        <img src="kedi/kedi_13.png" alt="Kedi 13">
+        <img src="kedi/kedi_14.png" alt="Kedi 14">
+        <img src="kedi/kedi_15.png" alt="Kedi 15">
+    </div>
+
+    <!-- KÖPEK GÖRSELLERİ -->
+    <h2>Köpekler (7 Görsel)</h2>
+    <div class="gallery">
+        <img src="kopek/kopek_1.png" alt="Köpek 1">
+        <img src="kopek/kopek_2.png" alt="Köpek 2">
+        <img src="kopek/kopek_3.png" alt="Köpek 3">
+        <img src="kopek/kopek_4.png" alt="Köpek 4">
+        <img src="kopek/kopek_5.png" alt="Köpek 5">
+        <img src="kopek/kopek_6.png" alt="Köpek 6">
+        <img src="kopek/kopek_7.png" alt="Köpek 7">
+    </div>
+
+</body>
+</html>
