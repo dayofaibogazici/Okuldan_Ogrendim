@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modül 1 - Ecobits Kâşifleri | Materyaller</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f8f9fa; 
+            color: #333; 
+            padding: 30px; 
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .header-section { text-align: center; margin-bottom: 40px; }
+        h1 { color: #2c3e50; margin-bottom: 5px; }
+        .subtitle { color: #7f8c8d; font-size: 1.1em; }
+        
+        .instructions { 
+            background-color: #e8f4f8; 
+            padding: 15px 20px; 
+            border-radius: 8px; 
+            border-left: 5px solid #3498db;
+            color: #444; 
+            margin-bottom: 30px;
+        }
+
+        /* Materyal Kartları */
+        .material-group {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        .material-group h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* İndirme Butonları */
+        .download-btn {
+            display: flex;
+            align-items: center;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .download-btn:hover { background-color: #219a52; }
+        .download-btn:active { transform: scale(0.98); }
+        .download-btn.app-btn { background-color: #e67e22; }
+        .download-btn.app-btn:hover { background-color: #d35400; }
+        
+        .icon { font-size: 1.4em; margin-right: 12px; }
+        .file-desc { font-size: 0.85em; font-weight: normal; opacity: 0.9; margin-left: auto; }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .back-button:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <a href="../../index.html" class="back-button">← Ana Sayfaya Dön</a>
+
+    <div class="header-section">
+        <h1>Modül 01 - Ecobits Kâşifleri</h1>
+        <p class="subtitle">Veri Bilimi Materyalleri ve Uygulama Şablonları</p>
+    </div>
+
+    <div class="instructions">
+        💡 <b>Kullanım:</b> Sınıf içi uygulamalarınızda kullanacağınız Excel veri setlerini ve MIT App Inventor (.aia) şablonlarını aşağıdaki butonlara tıklayarak doğrudan bilgisayarınıza indirebilirsiniz.
+    </div>
+
+    <!-- EXCEL DOSYALARI BÖLÜMÜ -->
+    <div class="material-group">
+        <h2>📊 Veri Setleri ve Hesap Tabloları</h2>
+        <p>Aşağıdaki dosyalar ders esnasında veri analizi yapmak için kullanılacaktır.</p>
+        
+        <!-- href kısmındaki isimler yüklediğiniz dosya isimleriyle birebir aynı olmalıdır -->
+        <a href="ecobits-veri-setleri.xlsx" download class="download-btn">
+            <span class="icon">📈</span>
+            EcoBits Kâşifleri Veri Setleri
+            <span class="file-desc">.xlsx İndir</span>
+        </a>
+
+        <a href="ecobits-ornek-hesap-tablosu.xlsx" download class="download-btn">
+            <span class="icon">📉</span>
+            Örnek Öğrenci Ekibi Hesap Tablosu
+            <span class="file-desc">.xlsx İndir</span>
+        </a>
+    </div>
+
+    <!-- APP INVENTOR DOSYALARI BÖLÜMÜ -->
+    <div class="material-group">
+        <h2>📱 Mobil Uygulama Şablonları</h2>
+        <p>Aşağıdaki <b>.aia</b> uzantılı dosyaları bilgisayarınıza indirdikten sonra, <i>MIT App Inventor > Projects > Import project (.aia) from my computer</i> yolunu izleyerek sisteme aktarabilirsiniz.</p>
+
+        <a href="ecobits-data-logger.aia" download class="download-btn app-btn">
+            <span class="icon">⚙️</span>
+            EcoBits Data Logger Şablonu
+            <span class="file-desc">.aia İndir</span>
+        </a>
+
+        <a href="ecobits-data-dashboard.aia" download class="download-btn app-btn">
+            <span class="icon">⚙️</span>
+            EcoBits Data Dashboard Şablonu
+            <span class="file-desc">.aia İndir</span>
+        </a>
+    </div>
+
+</body>
+</html>
